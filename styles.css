@@ -17,14 +17,16 @@ i{
 }
 
 .img{
+    width: 300px;
     float: left;
-    padding: 2%;
+    padding: 1%;
     background-color: green;
+    margin-right: 2%;
 }
 
 .desc{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 450px;
+    height: 230px;
     
 }
 
@@ -63,3 +65,4 @@ i{
 .item8 {
     font-size: 16px;
 }
+
