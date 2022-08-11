@@ -66,3 +66,6 @@ i{
     font-size: 16px;
 }
 
+ul li:nth-child(odd){
+    background-color: green;
+}
