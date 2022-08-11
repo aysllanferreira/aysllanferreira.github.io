@@ -14,8 +14,14 @@ i{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.img{
+    float: left;
+}
+
 .desc{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 400px;
+    
 }
 
 .item1 {
