@@ -18,11 +18,13 @@ i{
 
 .img{
     float: left;
+    padding: 2%;
+    background-color: green;
 }
 
 .desc{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 400px;
+    height: 450px;
     
 }
 
