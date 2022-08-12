@@ -94,3 +94,13 @@
 .video{
     padding-top: 3%;
 }
+
+/* Footer */
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
