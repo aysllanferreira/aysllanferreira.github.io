@@ -1,71 +1,106 @@
-body{
-    background-color: #8789C0;
-}
+/* HOME */
 
-strong{
-    color: #45F0DF;
-}
-
-i{
-    color: #C2CAE8;
-}
-
-.name{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#home {
     text-align: center;
-    padding-bottom: 4%;
+    background-color: black;
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 7%;
 }
 
-.img{
+.myimg {
     width: 300px;
-    float: left;
-    padding: 1%;
-    background-color: green;
-    margin-right: 2%;
 }
 
-.desc{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 290px;
-    
+.redeic {
+    padding-right: 2%;
+    color: white;
 }
 
-.texts{
-    padding: 2%;
+.trybe{
+    color: green;
 }
 
-.item1 {
-    font-size: 30px;
+.desc {
+    padding-top: 0.5%;
+    padding-bottom: 2%;
 }
 
-.item2 {
-    font-size: 28px;
+.redeic:hover {
+    color: purple;
 }
 
-.item3 {
-    font-size: 26px;
+/* WHO AM I */
+
+#message{
+    background-color: white;
 }
 
-.item4 {
-    font-size: 24px;
+.msg{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 3%;
 }
 
-.item5 {
-    font-size: 22px;
-}
-
-.item6 {
+.whoami {
     font-size: 20px;
 }
 
-.item7 {
-    font-size: 18px;
+/* I'LL LEARN */
+
+#learn{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
-.item8 {
-    font-size: 16px;
+.dev{
+    padding-top: 3%;
 }
 
-ul li:nth-child(odd){
-    background-color: green;
+.myname{
+
+}
+
+.cardolas{
+    color: black;
+    padding: 3% 4%;
+}
+
+.htmls{
+    color: orange;
+}
+
+.reacts{
+    color: aqua;
+}
+
+.nodes{
+    color: green;
+}
+
+.pythons{
+    color: yellowgreen;
+}
+
+/* Insights */
+
+#insight{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.video{
+    padding-top: 3%;
+}
+
+/* Footer */
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
