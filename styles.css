@@ -1,7 +1,9 @@
 #home {
     text-align: center;
     background-color: black;
-    color: white;  
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 7%;
 }
 
 .myimg {
@@ -10,4 +12,18 @@
 
 .redeic {
     padding-right: 2%;
+    color: white;
+}
+
+.trybe{
+    color: green;
+}
+
+.desc {
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+
+.redeic:hover {
+    color: purple;
 }
