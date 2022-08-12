@@ -12,6 +12,11 @@
     width: 300px;
 }
 
+.myname{
+    font-family:fantasy;
+    padding-top: 1%;
+}
+
 .redeic {
     padding-right: 2%;
     color: white;
