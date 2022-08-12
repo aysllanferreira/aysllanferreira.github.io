@@ -1,12 +1,9 @@
 #home {
-    text-align: center;    
+    text-align: center;
+    background-color: black;
+    color: white;    
 }
 
-.nome {
-    padding-top: 3%;
-    padding-bottom: 5%;
-}
-
-.desc {
-    padding-top: 12%;
+.myimg {
+    width: 300px;
 }
