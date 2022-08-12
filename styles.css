@@ -1,3 +1,5 @@
+/* HOME */
+
 #home {
     text-align: center;
     background-color: black;
@@ -26,4 +28,27 @@
 
 .redeic:hover {
     color: purple;
+}
+
+/* WHO AM I */
+
+#message{
+    background-color: white;
+}
+
+.msg{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+.whoami {
+    font-size: 20px;
+}
+
+/* I'LL LEARN */
+
+#learn{
+    background-color: black;
+    color: white;
 }
