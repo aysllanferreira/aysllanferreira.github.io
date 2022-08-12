@@ -51,4 +51,30 @@
 #learn{
     background-color: black;
     color: white;
+    text-align: center;
+}
+
+.dev{
+    padding-top: 3%;
+}
+
+.cardolas{
+    color: black;
+    padding: 3% 4%;
+}
+
+.htmls{
+    color: orange;
+}
+
+.reacts{
+    color: aqua;
+}
+
+.nodes{
+    color: green;
+}
+
+.pythons{
+    color: yellowgreen;
 }
