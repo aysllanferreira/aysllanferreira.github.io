@@ -4,25 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aysllan - Portifolio</title>
-
-    <!--Bootstrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-      crossorigin="anonymous"
-    ></script>
+    <title>Aysllan Portifolio</title>
 
     <!--FontAwesome-->
     <script
@@ -31,176 +13,105 @@
     ></script>
 
     <!--CSS-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Navbar-->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Aysllan Portifolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Poem</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item brand"><a href="#">Aysllan Portifólio</a></li>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Poem</a></li>
+            <li class="nav-item"><a href="#">Skills</a></li>
+        </ul>
     </nav>
 
     <!--Home-->
     <section id="home">
-      <div>
-        <img
-          class="rounded-circle myimg"
-          src="./images/aysllan.jpeg"
-          alt="Foto do Aysllan"
-        />
-        <h1 class="myname">Aysllan Ferreira</h1>
-        <h4 class="desc">
-          Web Development Student at <span class="trybe">Trybe</span>!
-        </h4>
-        <a
-          href="https://www.linkedin.com/in/aysllan-ferreira-61aa58228/"
-          target="_blank"
-          ><i class="fa-brands fa-linkedin fa-2x redeic"></i
-        ></a>
-        <a href="https://www.instagram.com/aysllanferreira99/" target="_blank"
-          ><i class="fa-brands fa-instagram fa-2x redeic"></i
-        ></a>
-        <a href="https://github.com/aysllanferreira" target="_blank"
-          ><i class="fa-brands fa-github fa-2x redeic"></i
-        ></a>
-        <a href="mailto: aysllan.ferreiraks3@gmail.com"
-          ><i class="fa-solid fa-envelope fa-2x redeic"></i
-        ></a>
-      </div>
-    </section>
-
-    <!--Mensagem-->
-    <section id="message">
-      <div class="container-fluid msg">
-        <h2>Hey!</h2>
-        <p class="whoami">
-          My name is Aysllan Ferreira from Monte Alto - São Paulo - Brazil
-          <br />
-          I'm currently studying web development at
-          <span class="trybe">Trybe</span>. <br />
-          This is my first portfolio and it was developed with HTML, CSS and
-          Bootstrap. <br>
-          I'm able to speak portuguease, english and spanish!
-        </p>
-      </div>
-    </section>
-
-    <!--I'll learn-->
-    <section id="learn">
-      <h1 class="dev">Developing skills</h1>
-
-      <div class="row row-cols-1 row-cols-lg-4 g-4 cardolas">
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <i class="fa-brands fa-html5 fa-4x htmls"></i>
-            <div class="card-body">
-              <p class="card-text">
-                Web development fundamentals. This is the basis for any
-                professional who develops web systems, as they will be able to
-                develop more advanced skills.
-              </p>
-            </div>
-          </div>
+      <div class="container-home">
+        <div>
+          <img class="img-home" src="https://aysllanferreira.github.io/images/aysllan.jpeg" alt="Aysllan">
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <i class="fa-brands fa-react fa-4x reacts"></i>
-            <div class="card-body">
-              <p class="card-text">
-                Front-end web development, also known as client-side development
-                is the practice of producing HTML, CSS and JavaScript for a
-                website or Web Application.
-              </p>
-            </div>
-          </div>
+        <div>
+          <h1 class="name">Aysllan Ferreira</h1>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <i class="fa-brands fa-node-js fa-4x nodes"></i>
-            <div class="card-body">
-              <p class="card-text">
-                Back-end refers to any part of a website or software program
-                that users don't see, it's the system of an application. It
-                works with the frontend.
-              </p>
-            </div>
-          </div>
+        <div>
+          <h2>Web Development Student at <span class="trybe">Trybe!</span></h2>
         </div>
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <i class="fa-brands fa-python fa-4x pythons"></i>
-            <div class="card-body">
-              <p class="card-text">
-                Computer science the study of computers, including their
-                algorithmic foundations, hardware and software, and their uses
-                for processing information.
-              </p>
-            </div>
-          </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/aysllan-ferreira-61aa58228/" target="_blank"><i class="fa-brands fa-linkedin fa-2x redeic"></i></a>
+          <a href="https://www.instagram.com/aysllanferreira99/" target="_blank"><i class="fa-brands fa-instagram fa-2x redeic"></i></a>
+          <a href="https://github.com/aysllanferreira" target="_blank"><i class="fa-brands fa-github fa-2x redeic"></i></a>
+          <a href="mailto: aysllan.ferreiraks3@gmail.com"><i class="fa-solid fa-envelope fa-2x redeic"></i></a>
         </div>
       </div>
     </section>
-    <div>
 
-      <!--Insight-->
-      <section id="insight">
-        <h3>Do you like some insights?</h3>
-
-        <p class="whoami"></p>
-      <p>
-        This poem is one of my favorites, often mistaken for the name: "The Minstrel" by: <i>William Shakespeare</i>. <br />
-        Actually, this poem is called After a while, it was written by:
-        <strong>Veronica A. Shoffstal</strong>.
-        <a
-          href="https://pt.wikipedia.org/wiki/Um_Dia_Voc%C3%AA_Aprende_que..."
-          target="_blank"
-          >Read more</a
-        >
-        <br />
-        <br>
-        It is a wonderful poem that shows us how we act and learn from our actions and experiences. 
-        <a href="https://www.pensador.com/frase/MTg1NjAy/" target="_blank"
-          >Read more</a
-        >
-       <br />
-       For an even more incredible experience, you can watch the recitation by the interpreter <strong>Moacir Reis</strong> below <br>
-       <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/vlLh8K6FF8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p>
-      </section>
-
-      <!--Footer-->
-      <section id="footer">
-        <div class="ourfooter">
-          <h5>Copyright 2022 - Aysllan Ferreira</h5>
+    <!--Description-->
+    <section id="description">
+      <div class="container-desc">
+        <div>
+          <h1>Hey!</h1>
+          <p>My name is Aysllan Ferreira from Monte Alto - São Paulo - Brazil <br>
+            I'm currently studying web development at <span class="trybe">Trybe</span>. <br>
+            This is my first portfolio and it was developed with HTML and CSS. <br>
+            I'm able to speak portuguease, english and spanish!</p>
         </div>
-      </section>
-  </body>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills">
+      <div class="container-skills">
+        <div>
+          <h1>Developing skills</h1>
+        </div>
+
+        <div class="break"></div>
+
+        <div class="card">
+          <br>
+          <i class="fa-brands fa-html5 fa-4x htmls"></i>
+          <p class="text">Web development fundamentals. This is the basis for any professional who develops web systems, as they will be able to develop more advanced skills.</p>
+        </div>
+
+        <div class="card">
+          <br>
+          <i class="fa-brands fa-react fa-4x reacts"></i>
+          <p class="text">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application.</p>
+        </div>
+
+        <div class="card">
+          <br>
+          <i class="fa-brands fa-node-js fa-4x nodes"></i>
+          <p class="text">Back-end refers to any part of a website or software program that users don't see, it's the system of an application. It works with the frontend.</p>
+        </div>
+
+        <div class="card">
+          <br>
+          <i class="fa-brands fa-python fa-4x pythons"></i>
+          <p class="text">Computer science the study of computers, including their algorithmic foundations, hardware and software, and their uses for processing information.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Insights-->
+
+    <section id="insights">
+      <div class="container-insights">
+        <div class="poem">
+          <h1>Do you like some insights?</h1>
+          <p>This poem is one of my favorites, often mistaken for the name: "The Minstrel" by: William Shakespeare. <br>
+            Actually, this poem is called After a while, it was written by: Veronica A. Shoffstal. <a href="https://pt.wikipedia.org/wiki/Um_Dia_Voc%C3%AA_Aprende_que..." target="_blank">Read More</a> <br> <br>
+            It is a wonderful poem that shows us how we act and learn from our actions and experiences. <a href="https://www.pensador.com/frase/MTg1NjAy/" target="_blank">Read More</a>  <br>
+            For an even more incredible experience, you can watch the recitation by the interpreter Moacir Reis below
+          </p> <br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vlLh8K6FF8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br><br>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <h3>Copyright 2022 - Aysllan Ferreira</h3>
+    </footer>
 </html>
