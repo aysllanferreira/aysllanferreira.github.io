@@ -41,6 +41,18 @@ body{
     color: purple;
 }
 
+.navbar-nav{
+    margin-right: 5rem;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: purple;
+}
+
 /* Cards */
 
 .container-skills{
@@ -142,7 +154,7 @@ body{
     }
 
     .video{
-        width: 380px;
-        height: 310px;
+        width: 280px;
+        height: 235px;
     }
   }
