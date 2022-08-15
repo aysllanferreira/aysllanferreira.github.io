@@ -29,7 +29,7 @@ body{
     color: purple;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .my-img{
         width: 200px;
     }
