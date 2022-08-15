@@ -67,6 +67,23 @@ body{
     color: yellowgreen;
     margin-top: 1rem;
 }
+
+/* Insights */
+
+.insights{
+    text-align: center;
+}
+
+.insights h1{
+    margin-bottom: 2rem;
+}
+
+.video{
+    width: 550px;
+    height: 338px;
+}
+
+
 @media screen and (max-width: 1030px) {
     .card {
         margin-right: 3rem;
@@ -84,5 +101,10 @@ body{
 
     .card{
         margin-left: 4rem;
+    }
+
+    .video{
+        width: 380px;
+        height: 310px;
     }
   }
