@@ -83,6 +83,19 @@ body{
     height: 338px;
 }
 
+/* Footer */
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer h3{
+    font-size: 1.1rem;
+}
 
 @media screen and (max-width: 1030px) {
     .card {
