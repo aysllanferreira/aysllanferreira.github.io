@@ -29,6 +29,25 @@ body{
     color: purple;
 }
 
+/* Cards */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 250px;
+    margin-right: 1.3rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1030px) {
+    .card {
+        margin-right: 3rem;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .my-img{
         width: 200px;
