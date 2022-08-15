@@ -28,9 +28,13 @@ body{
     margin-bottom: 2rem;
 }
 
+.social{
+    padding-bottom: 2rem;
+}
+
 .social a{
     margin-right: 0.8rem;
-    color: black;
+    color: white;
 }
 
 .social a:hover{
