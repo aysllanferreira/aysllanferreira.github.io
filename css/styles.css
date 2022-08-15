@@ -31,9 +31,15 @@ body{
 
 /* Cards */
 
+.container-skills{
+    text-align: center;
+}
+
 .cards{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 
 .card {
@@ -42,6 +48,25 @@ body{
     margin-top: 2rem;
 }
 
+.htmls{
+    color: orange;
+    margin-top: 1rem;
+}
+
+.reacts{
+    color: aqua;
+    margin-top: 1rem;
+}
+
+.nodes{
+    color: green;
+    margin-top: 1rem;
+}
+
+.pythons{
+    color: yellowgreen;
+    margin-top: 1rem;
+}
 @media screen and (max-width: 1030px) {
     .card {
         margin-right: 3rem;
@@ -55,5 +80,9 @@ body{
 
     .about-me{
         font-size: 14px;
+    }
+
+    .card{
+        margin-left: 4rem;
     }
   }
