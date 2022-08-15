@@ -33,4 +33,8 @@ body{
     .my-img{
         width: 200px;
     }
+
+    .about-me{
+        font-size: 14px;
+    }
   }
