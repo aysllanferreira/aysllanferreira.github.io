@@ -2,8 +2,16 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #000000;
+    color: white;
     margin: 0;
+}
+
+#description{
+    background-color: #FFFFFF;
+    border: #FFFFFF solid 30px;
+    border-radius: 2%;
+    color: black;
 }
 
 .my-img{
@@ -35,17 +43,23 @@ body{
     text-align: center;
 }
 
+.container-skills{
+    margin-top: 2rem;
+}
+
 .cards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 4rem;
+    color: black;
 }
 
 .card {
     height: 250px;
     margin-right: 1.3rem;
     margin-top: 2rem;
+    border-radius: 10%;
 }
 
 .htmls{
@@ -70,12 +84,18 @@ body{
 
 /* Insights */
 
+#insights{
+    background-color: white;
+    color: black;
+}
+
 .insights{
     text-align: center;
 }
 
 .insights h1{
     margin-bottom: 2rem;
+    padding-top: 3rem;
 }
 
 .video{
