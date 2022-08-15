@@ -5,3 +5,17 @@ body{
     background-color: white;
     margin: 0;
 }
+
+.my-img{
+    margin-top: 3rem;
+    width: 400px;
+}
+
+.my-desc{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.my-desc h4{
+    margin-bottom: 2rem;
+}
