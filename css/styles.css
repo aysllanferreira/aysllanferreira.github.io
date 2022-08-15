@@ -138,6 +138,7 @@ body{
 
     .card{
         margin-left: 4rem;
+        height: 280px;
     }
 
     .video{
