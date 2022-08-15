@@ -11,7 +11,7 @@ h1{
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 /* NAVBAR */
 
@@ -21,6 +21,7 @@ p{
     margin: 0;
     padding: 1rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
     align-items: center;
 }
@@ -52,6 +53,7 @@ p{
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
