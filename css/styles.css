@@ -19,3 +19,18 @@ body{
 .my-desc h4{
     margin-bottom: 2rem;
 }
+
+.social a{
+    margin-right: 0.8rem;
+    color: black;
+}
+
+.social a:hover{
+    color: purple;
+}
+
+@media screen and (max-width: 412px) {
+    .my-img{
+        width: 200px;
+    }
+  }
