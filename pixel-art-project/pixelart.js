@@ -124,7 +124,6 @@ const createBoard = (chooseColour, sizer) => {
 
   if (localStorage.getItem("pixelBoard") === null) {
     getBoard.style.width = `${40 * 15}px`;
-    console.log("aqui");
   } else {
     getBoard.style.width = sizer;
   }
@@ -215,7 +214,6 @@ const generateBoard = () => {
       alert("Board inválido!");
     } else {
       const getValue = verifyQntSquares(getInput);
-      console.log(getValue);
       const newSizeBoard = 40 * getValue + "px";
       localStorage.setItem("boardSize", getValue);
       localStorage.setItem("new-board", newSizeBoard);
