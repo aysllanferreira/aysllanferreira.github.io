@@ -84,7 +84,7 @@ const resetColours = () => {
   const myLi = document.getElementsByClassName("color");
   const myBtn = document.getElementById("button-random-color");
   myBtn.addEventListener("click", () => {
-    localStorage.clear();
+    localStorage.removeItem("colorPalette");
     verifyLocalStorage(localStorageVar, myLi);
     document.location.reload(true);
   });
@@ -161,10 +161,10 @@ const selectColour = () => {
 
 // Funcao para limpar os quadrinhos
 const cleanBoard = () => {
-  const getSquares = document.querySelectorAll(".pixel");
   const getButtonClear = document.getElementById("clear-board");
 
   getButtonClear.addEventListener("click", () => {
+    const getSquares = document.querySelectorAll(".pixel");
     for (let i = 0; i < getSquares.length; i += 1) {
       getSquares[i].style.backgroundColor = "white";
       localDraw.push(getSquares[i]);
