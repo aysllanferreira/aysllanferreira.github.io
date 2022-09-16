@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  color: black;
+}
+
+html {
+  background: url(./images/background-image-galaxy.gif) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#content {
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.596);
+  padding-bottom: 2rem;
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  font-size: 60px;
+  margin: 2rem 2rem;
+}
+
+#paper {
+  display: flex;
+  justify-content: center;
+}
+
+#funcionamento {
+  text-align: center;
+  margin: 2rem 2rem;
+}
+
+.texto-tarefa {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+#texto-tarefa {
+  color: black;
+}
+
+#inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#lista-tarefas {
+  margin-top: 2rem;
+  width: 250px;
+  background-color: white;
+  padding: 10px 0px 25px 25px;
+  border-radius: 10px;
+  border: solid 5px gray;
+}
+
+@media screen and (max-width: 414px) {
+  #content {
+    width: 300px;
+  }
+
+  header {
+    font-size: 30px;
+  }
+}
