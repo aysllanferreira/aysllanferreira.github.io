@@ -16,7 +16,7 @@
 ##### Modulo de FrontEnd
 
 - [X] 01: _[Projeto - Shopping Cart](https://aysllanferreira.github.io/Projeto-11-Shopping-Cart/)_
-- [ ] 02: _[Projeto - Solar System](https://solar-system-five-beta.vercel.app/)_
+- [X] 02: _[Projeto - Solar System](https://solar-system-five-beta.vercel.app/)_
 - [ ] 03: _[Projeto - Tryunfo]()_
 - [ ] 04: _[Projeto - TrybeTunes]()_
 - [ ] 05: _[Projeto - FrontEnd Online Store]()_
